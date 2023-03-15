@@ -4,10 +4,10 @@ import BlogPost from '../components/BlogPost';
 
 const blogPosts = [
     {
-        title: 'My First Blog Post',
-        content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce aliquam, nulla vel ullamcorper dignissim, magna elit vehicula odio, quis consequat sapien diam eu neque. Duis nec fringilla purus. Sed congue dui id urna eleifend convallis.',
-        date: 'March 1, 2023',
-        link: '/my-first-blog-post'
+        title: 'One More Blog Post',
+        content: 'Vivamus consectetur enim a felis rutrum, ac malesuada sapien suscipit. Fusce ornare libero vitae turpis bibendum suscipit. Sed scelerisque, dui a bibendum lobortis, turpis velit varius lectus, at bibendum diam diam eu eros.',
+        date: 'March 10, 2023',
+        link: '/one-more-blog-post'
     },
     {
         title: 'Another Blog Post',
@@ -16,10 +16,10 @@ const blogPosts = [
         link: '/another-blog-post'
     },
     {
-        title: 'One More Blog Post',
-        content: 'Vivamus consectetur enim a felis rutrum, ac malesuada sapien suscipit. Fusce ornare libero vitae turpis bibendum suscipit. Sed scelerisque, dui a bibendum lobortis, turpis velit varius lectus, at bibendum diam diam eu eros.',
-        date: 'March 10, 2023',
-        link: '/one-more-blog-post'
+        title: 'My First Blog Post',
+        content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce aliquam, nulla vel ullamcorper dignissim, magna elit vehicula odio, quis consequat sapien diam eu neque. Duis nec fringilla purus. Sed congue dui id urna eleifend convallis.',
+        date: 'March 1, 2023',
+        link: '/my-first-blog-post'
     }
 ];
 

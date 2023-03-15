@@ -2,11 +2,12 @@
 .App {
     max-width: 1300px;
     margin: 0 auto;
-    margin-top: 20px;
+    margin-top: 40px;
     margin-bottom: 50px;
     border: 1px solid #e1e4e8;
     padding: 20px;
-    border-radius: 5px;
+    border-radius: 10px;
+    background: white;
 }
 
 /* Hide the scrollbar for the entire HTML document */
@@ -18,4 +19,13 @@ html, body {
 /* Style a custom scrollbar */
 ::-webkit-scrollbar {
     width: 0px;
+}
+
+.particles-container {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
 }

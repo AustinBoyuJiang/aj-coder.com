@@ -7,11 +7,16 @@ import NotFound from "./pages/NotFound";
 import "./assets/styles/App.css";
 import "./assets/styles/PageContent.css";
 import "./assets/styles/Nav.css";
+import ParticlesBackground from './components/ParticlesBackground';
+
 
 function App() {
     return (
         <Router>
             <div className="App">
+                <div className="particles-container">
+                    <ParticlesBackground />
+                </div>
                 <nav className="nav-bar">
                     <NavLink to="/" exact className="nav-link" activeClassName="active">Home</NavLink>
                     <NavLink to="/projects" className="nav-link" activeClassName="active">Projects</NavLink>
@@ -30,4 +35,4 @@ function App() {
     );
 }
 
-export default App
+export default App;

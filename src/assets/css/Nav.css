@@ -1,0 +1,64 @@
+/* Navigation bar */
+.nav-link {
+    display: inline-block;
+    margin-right: 16px;
+    color: #586069;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.2s ease-in-out;
+}
+
+.nav-link:not(:last-child)::after {
+    content: "";
+    display: inline-block;
+    margin-top: -10px;
+    margin-bottom: -10px;
+    margin-left: 25px;
+    margin-right: -25px;
+    width: 1px;
+    height: 35px;
+    background-color: #e1e4e8;
+}
+
+.nav-link:hover {
+    background-color: #f6f8fa;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom: 1px solid #e1e4e8;
+    padding: 8px 16px;
+    margin-top: -20px;
+}
+
+nav button:first-child {
+    margin-right: 16px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li a {
+    display: block;
+    margin-right: 16px;
+    color: #586069;
+    padding: 8px 0;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.2s ease-in-out;
+}
+
+nav li a:hover {
+    background-color: #f6f8fa;
+}
+
+nav li:last-child a {
+    margin-right: 0;
+}

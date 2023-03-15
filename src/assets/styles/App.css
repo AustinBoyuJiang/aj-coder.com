@@ -1,0 +1,21 @@
+/* Hide the scrollbar, but keep it functional */
+.App {
+    max-width: 1300px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    border: 1px solid #e1e4e8;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+/* Hide the scrollbar for the entire HTML document */
+html, body {
+    height: 100%; /* Set the height of the body to 100% */
+    overflow: auto; /* Hide the scrollbar */
+}
+
+/* Style a custom scrollbar */
+::-webkit-scrollbar {
+    width: 0px;
+}

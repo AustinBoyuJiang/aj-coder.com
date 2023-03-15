@@ -1,26 +1,28 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, NavLink } from "react-router-dom";
 import Home from "./pages/Home";
 import Projects from "./pages/Projects";
+import Blog from "./pages/Blog";
 import NotFound from "./pages/NotFound";
-import "./assets/css/App.css";
-import "./assets/css/PageContent.css";
-import "./assets/css/Nav.css";
+import "./assets/styles/App.css";
+import "./assets/styles/PageContent.css";
+import "./assets/styles/Nav.css";
 
 function App() {
     return (
         <Router>
             <div className="App">
                 <nav className="nav-bar">
-                    <Link to="/" className="nav-link">Home</Link>
-                    <Link to="/projects" className="nav-link">Projects</Link>
-                    <Link to="/blog" className="nav-link">Blog</Link>
+                    <NavLink to="/" exact className="nav-link" activeClassName="active">Home</NavLink>
+                    <NavLink to="/projects" className="nav-link" activeClassName="active">Projects</NavLink>
+                    <NavLink to="/blog" className="nav-link" activeClassName="active">Blog</NavLink>
                 </nav>
                 <div className="page-content">
                     <Routes>
-                        <Route path="/projects" element={<Projects />} />
                         <Route path="/" element={<Home />} />
-                        <Route path="*" element={<NotFound />} /> {/* this will match any URL that is not matched by the other routes */}
+                        <Route path="/projects" element={<Projects />} />
+                        <Route path="/blog" element={<Blog />} />
+                        <Route path="*" element={<NotFound />} />
                     </Routes>
                 </div>
             </div>

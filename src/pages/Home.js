@@ -1,11 +1,11 @@
 import React from "react";
-import "../assets/css/Home.css";
+import "../assets/styles/Home.css";
 
 function Home() {
     return (
         <div className="home">
             <div className="intro">
-                <h1 className="intro-heading">Hi, I'm [Your Name]</h1>
+                <h1 className="intro-heading">Hi, I'm Austin Jiang</h1>
                 <p className="intro-text">
                     I am a software developer with [number of years of experience] years of experience in [list of skills]. I specialize in [your specialization].
                 </p>

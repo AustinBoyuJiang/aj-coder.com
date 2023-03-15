@@ -73,6 +73,7 @@
 
 .project-details a:hover {
     background-color: #0062cc;
+    text-decoration: none;
 }
 
 .project-details a:not(:last-child) {

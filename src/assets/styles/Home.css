@@ -1,0 +1,57 @@
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+  background: linear-gradient(to top, white, white);
+  animation: slideUp 1s ease-in-out forwards;
+  opacity: 0;
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(10%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.intro {
+  max-width: 800px;
+  padding: 0 24px;
+  text-align: center;
+}
+
+.intro-heading {
+  font-size: 48px;
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+
+.intro-text {
+  font-size: 24px;
+  line-height: 1.5;
+  margin-bottom: 24px;
+}
+
+.intro-text a {
+  color: #0366d6;
+  text-decoration: none;
+}
+
+.intro-text a:hover {
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 768px) {
+  .intro-heading {
+    font-size: 36px;
+  }
+
+  .intro-text {
+    font-size: 20px;
+  }
+}

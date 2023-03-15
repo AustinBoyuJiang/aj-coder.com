@@ -1,6 +1,6 @@
 import React from "react";
 import ProjectBox from "../components/ProjectBox";
-import "../assets/css/Projects.css";
+import "../assets/styles/Projects.css";
 
 const projects = [
     {

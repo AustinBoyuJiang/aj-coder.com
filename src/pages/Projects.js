@@ -16,7 +16,7 @@ const projects = [
             {
                 text: "YouTube",
                 link: "[project-1-youtube-link]"
-            }
+            },
         ]
     },
     {

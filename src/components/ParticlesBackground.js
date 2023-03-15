@@ -45,10 +45,10 @@ const ParticlesBackground = () => {
                             size: 40,
                         },
                         push: {
-                            quantity: 3,
+                            quantity: 5,
                         },
                         repulse: {
-                            distance: 200,
+                            distance: 150,
                             duration: 0.4,
                         },
                     },
@@ -74,6 +74,7 @@ const ParticlesBackground = () => {
                         random: false,
                         speed: 2,
                         straight: false,
+                        bounce: 1,
                     },
                     number: {
                         density: {

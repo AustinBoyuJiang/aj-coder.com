@@ -8,7 +8,7 @@ function ProjectBox({ project, buttons }) {
                 <h2>{project.name}</h2>
                 <p>{project.description}</p>
                 {buttons.map((button, index) => (
-                    <a key={index} href={button.link}>
+                    <a key={index} href={button.link} target="_blank" rel="noreferrer">
                         {button.text}
                     </a>
                 ))}

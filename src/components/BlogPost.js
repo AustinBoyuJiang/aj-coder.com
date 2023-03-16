@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const BlogPost = ({ title, content, date, link }) => (
-    <a href={link} className="blog-post">
+    <a href={link} className="blog-post" target="_blank" rel="noreferrer">
         <h2 className="blog-post-title">{title}</h2>
         <p>{content}</p>
         <span className="blog-post-date">{date}</span>

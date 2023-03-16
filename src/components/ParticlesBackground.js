@@ -20,6 +20,10 @@ const ParticlesBackground = () => {
             loaded={particlesLoaded}
             options={{
                 autoPlay: true,
+                fullScreen: {
+                    enable: true,
+                    zIndex: -1 //±³¾°ºóÖÃÏÔÊ¾
+                },
                 background: {
                     color: "#1d1f20",
                 },
@@ -45,10 +49,10 @@ const ParticlesBackground = () => {
                             size: 40,
                         },
                         push: {
-                            quantity: 5,
+                            quantity: 0,
                         },
                         repulse: {
-                            distance: 150,
+                            distance: 200,
                             duration: 0.4,
                         },
                     },
@@ -65,7 +69,7 @@ const ParticlesBackground = () => {
                         width: 1,
                     },
                     collisions: {
-                        enable: true,
+                        enable: false,
                     },
                     move: {
                         direction: "none",

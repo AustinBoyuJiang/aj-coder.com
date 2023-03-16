@@ -45,7 +45,6 @@
     padding: 15px;
     background-color: #007bff;
     color: #fff;
-    border-radius: 5px 5px 0 0;
 }
 
 .blog-post p {
@@ -61,16 +60,6 @@
     font-size: 14px;
     color: #999;
     margin: 20px;
-}
-
-.blog-post:first-child {
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-}
-
-.blog-post:last-child {
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
 }
 
 .blog-post + .blog-post {

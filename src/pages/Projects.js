@@ -47,6 +47,26 @@ const projects = [
             }
         ]
     },
+    {
+        name: "Project 4",
+        description: "This is the 0th project I worked on.",
+        image: "./assets/images/project2.jpg",
+        githubLink: "[project-1-github-link]",
+        buttons: [
+            {
+                text: "GitHub",
+                link: "[project-1-github-link]"
+            },
+            {
+                text: "YouTube",
+                link: "[project-1-youtube-link]"
+            },
+            {
+                text: "Website",
+                link: "[project-1-website-link]"
+            },
+        ]
+    },
 ];
 
 function Projects() {
